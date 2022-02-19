@@ -99,13 +99,13 @@
                     <div class="input-group-prepend">
                         <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
                     </div>
-                    <input name="pass1" class="form-control" placeholder="Create password" type="password">
+                    <input name="pass1" id="pass1" class="form-control" placeholder="Create password" type="password">
                 </div> <!-- form-group// -->
                 <div class="form-group input-group">
                     <div class="input-group-prepend">
                         <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
                     </div>
-                    <input name="pass2" class="form-control" placeholder="Repeat password" type="password">
+                    <input name="pass2" id="pass2" class="form-control" placeholder="Repeat password" type="password">
                 </div> <!-- form-group// -->
                 <div class="form-group">
                     <button type="submit" class="btn btn-primary btn-block"> Create Account</button>
@@ -129,3 +129,14 @@
     </div>
     <br><br>
 </article>
+
+<script>
+    $('form').submit(function () {
+    var a=$('#pass1').val();
+    var b=$('#pass2').val();
+        if(a!=b){
+            alert("please confirm Entered password");
+            return false;
+        }
+    });
+</script>
