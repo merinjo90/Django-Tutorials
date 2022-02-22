@@ -16,6 +16,26 @@ class Category(models.Model):
     def __str__(self):
         return self.category_name
 
+
+class QuantityVariant(models.Model):
+    varient_name=models.CharField(max_length=200)
+
+    def __str__(self):
+        return self.varient_name
+
+class ColorVarient(models.Model):
+    color_name=models.CharField(max_length=200)
+    color_code=models.CharField(max_length=200)
+
+    def __str__(self):
+        return self.color_name
+
+class SizeVarient(models.Model):
+    size_name=models.CharField(max_length=200)
+
+    def __str__(self):
+        return self.size_name
+
 class Product(models.Model):
     category=models.ForeignKey(Category,on_delete=models.CASCADE)
     product_name=models.CharField(max_length=200)
@@ -23,6 +43,11 @@ class Product(models.Model):
     stock=models.IntegerField(default=100)
     price=models.CharField(max_length=100)
     description=models.TextField()
+
+    quantity_type=models.ForeignKey(QuantityVariant,blank=True,null=True,on_delete=models.PROTECT)
+    color_type=models.ForeignKey(ColorVarient,blank=True,null=True,on_delete=models.PROTECT)
+    size_type=models.ForeignKey(SizeVarient,blank=True,null=True,on_delete=models.PROTECT)
+
 
     def __str__(self):
         return self.product_name
