@@ -36,6 +36,7 @@ class SizeVarient(models.Model):
     def __str__(self):
         return self.size_name
 
+
 class Product(models.Model):
     category=models.ForeignKey(Category,on_delete=models.CASCADE)
     product_name=models.CharField(max_length=200)
@@ -53,5 +54,7 @@ class Product(models.Model):
         return self.product_name
 
 
-
+class ProductImages(models.Model):
+    product = models.ForeignKey(Product, on_delete=models.PROTECT)
+    image=models.ImageField(upload_to='static/products')
 
