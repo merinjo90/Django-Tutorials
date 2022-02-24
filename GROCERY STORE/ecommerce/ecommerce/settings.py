@@ -25,7 +25,12 @@ SECRET_KEY = 'django-insecure-9mfh*$w^s*s=!yg5#kx_&pwb8&%a2n@cb&fi6nn$p-r2*4bo7c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+SECURE_SSL_REDIRECT=False
+SESSION_COOKIE_SECURE=False
+CSRF_COOKIE_SECURE=False
+
+
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -40,6 +45,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'home',
     'products',
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -70,11 +76,28 @@ TEMPLATES = [
     },
 ]
 
+
+# SIMPLE_JWT = {
+#      'AUTH_HEADER_TYPES': ('JWT',),
+# }
+#
+# REST_FRAMEWORK = {
+#     'DEFAULT_AUTHENTICATION_CLASSES': (
+#         'rest_framework_simplejwt.authentication.JWTAuthentication',
+#     )
+# }
+
+
 REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': (
-        'rest_framework_simplejwt.authentication.JWTAuthentication',
-    )
+'DEFAULT_PERMISSION_CLASSES': (
+    'rest_framework.permissions.IsAuthenticated',
+),
+'DEFAULT_AUTHENTICATION_CLASSES': (
+    'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+),
 }
+
+
 
 WSGI_APPLICATION = 'ecommerce.wsgi.application'
 
