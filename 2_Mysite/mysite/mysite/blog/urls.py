@@ -7,6 +7,7 @@ app_name='blog'
 urlpatterns=[
     path('',home,name='home'),
     path('login/',signup,name='login'),
-    path('logout',logout_user,name='logout')
+    path('logout',logout_user,name='logout'),
+    path('register/',register,name='register')
 
 ]
