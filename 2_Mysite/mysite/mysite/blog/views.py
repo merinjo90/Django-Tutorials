@@ -1,6 +1,7 @@
 from django.shortcuts import render,redirect
 from .models import Post
 from django.contrib.auth import authenticate,login,logout
+from django.contrib import messages
 
 # Create your views here.
 
@@ -17,6 +18,7 @@ def signup(request):
             login(request,user)
             return redirect('blog:home')
         else:
+            messages.error(request, 'User not exist.')
             return redirect('blog:login')
 
     return render(request,'login.html')
