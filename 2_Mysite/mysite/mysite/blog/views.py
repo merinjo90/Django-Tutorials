@@ -6,3 +6,6 @@ from .models import Post
 def home(request):
     obj=Post.objects.all()
     return render(request,'index.html',{'obj':obj})
+
+def signup(request):
+    return render(request,'login.html')
