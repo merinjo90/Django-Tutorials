@@ -22,3 +22,7 @@ def signup(request):
             return redirect('blog:login')
 
     return render(request,'login.html')
+
+def logout_user(request):
+    logout(request)
+    return redirect('blog:home')
