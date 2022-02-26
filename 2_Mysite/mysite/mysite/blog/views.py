@@ -36,7 +36,20 @@ def register(request):
         username = request.POST.get('username')
         email = request.POST.get('email')
         password = request.POST.get('password')
-        # print(username,password,email)
-        user=User.objects.create_user(username=username,email=email,password=password)
-        login(request,user)
-    return render(request, 'register.html')
+        confirm_password = request.POST.get('confirm_password')
+        if password==confirm_password:
+            if User.objects.filter(username=username).exists():
+                messages.error(request, 'Username already exist')
+                return redirect('blog:register')
+            elif User.objects.filter(email=email).exists():
+                messages.error(request, 'email already exist')
+                return redirect('blog:register')
+            else:
+                user = User.objects.create_user(username=username, email=email, password=password)
+                login(request,user)
+                messages.error(request, 'Sucess')
+                return redirect('blog:register')
+        else:
+            messages.error(request, 'Password not equal')
+            return redirect('blog:register')
+    return render(request,'register.html')
