@@ -3,6 +3,7 @@ from .models import Post
 from django.contrib.auth import authenticate, login, logout
 from django.contrib import messages
 from django.contrib.auth.models import User
+from .forms import PostForm
 
 # Create your views here.
 
@@ -53,3 +54,13 @@ def register(request):
             messages.error(request, 'Password not equal')
             return redirect('blog:register')
     return render(request,'register.html')
+
+
+def create_post(request):
+    form =PostForm()
+    if request.method=='POST':
+        form=PostForm(request.POST,request.FILES)
+        if form.is_valid():
+            form.save()
+            form=PostForm()
+    return render(request,'create_post.html',{'form':form})
