@@ -9,6 +9,7 @@ urlpatterns=[
     path('login/',signup,name='login'),
     path('logout',logout_user,name='logout'),
     path('register/',register,name='register'),
-    path('create_post/', create_post, name='create_post')
+    path('create_post/',create_post, name='create_post'),
+    path('update_post/<int:id>',update_post, name='update_post')
 
 ]

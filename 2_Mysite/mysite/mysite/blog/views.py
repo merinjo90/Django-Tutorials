@@ -64,3 +64,12 @@ def create_post(request):
             form.save()
             form=PostForm()
     return render(request,'create_post.html',{'form':form})
+
+
+def update_post(request,id):
+    obj=Post.objects.get(id=id)
+    form=PostForm(request.POST or None, instance=obj)
+    if request.method=='POST':
+        if form.is_valid():
+            form.save()
+    return render(request,'update_post.html',{form:'form'})
