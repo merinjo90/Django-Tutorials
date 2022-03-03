@@ -26,11 +26,8 @@ def contact(request):
         email = request.POST['email'],
         phone = request.POST['phone'],
         concern = request.POST['concern']
-        print(name, email, phone, concern)
-        obj=Contact.objects.all()
+        obj=Contact(name=name,email=email,phone=phone,concern=concern)
         print(obj)
-        context={obj:'obj'}
-
-
-    return render(request,'contact.html',context)
+        obj.save()
+    return render(request,'contact.html')
 
