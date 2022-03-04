@@ -81,12 +81,12 @@
                                 <li><a href="#">Pages</a>
                                     <ul class="dropdown">
                                         <li><a href="{% url 'home' %}">- Home</a></li>
-                                        <li><a href="about.html">- About Us</a></li>
-                                        <li><a href="service.html">- Service</a></li>
-                                        <li><a href="pricing.html">- Pricing</a></li>
-                                        <li><a href="blog.html">- Blog</a></li>
-                                        <li><a href="blog-details.html">- Blog Details</a></li>
-                                        <li><a href="contact.html">- Contact</a></li>
+                                        <li><a href="{% url 'about' %}">- About Us</a></li>
+                                        <li><a href="{% url 'service' %}">- Service</a></li>
+                                        <li><a href="{% url 'pricing' %}">- Pricing</a></li>
+                                        <li><a href="{% url 'blog' %}">- Blog</a></li>
+                                        <li><a href="{% url 'blog_details' %}">- Blog Details</a></li>
+                                        <li><a href="{% url 'contact' %}">- Contact</a></li>
                                         <li><a href="#">- Dropdown</a>
                                             <ul class="dropdown">
                                                 <li><a href="#">- Dropdown Item</a></li>
@@ -104,9 +104,9 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="service.html">Service</a></li>
-                                <li><a href="pricing.html">Pricing</a></li>
+                                <li><a href="{% url 'about' %}">About</a></li>
+                                <li><a href="{% url 'service' %}">Service</a></li>
+                                <li><a href="{% url 'pricing' %}">Pricing</a></li>
                                 <li><a href="#">Blog</a>
                                     <ul class="dropdown">
                                         <li><a href="blog.html">- Blog</a></li>
@@ -344,7 +344,7 @@
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/YrN4JE8Ee8A" title="YouTube video player"
                             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen>
-                        
+
                     </iframe>
                 </div>
             </div>
@@ -740,7 +740,7 @@
             <!-- Single Footer Widget -->
             <div class="col-12 col-sm-6 col-lg-4">
                 <div class="single-footer-widget">
-                    <a href="./index.html" class="d-block mb-4"><img src="{% static 'website/img/core-img/logo.png' %}"
+                    <a href="{% url 'home' %}" class="d-block mb-4"><img src="{% static 'website/img/core-img/logo.png' %}"
                                                                      alt=""></a>
                     <p>Etiam sutor risus, dapibus act elefend katen, lacinia sitamet denim. Mauris sagittis kansa
                         interdum dignissim.</p>
