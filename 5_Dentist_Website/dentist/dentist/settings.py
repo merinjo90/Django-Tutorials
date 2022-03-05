@@ -9,11 +9,11 @@ https://docs.djangoproject.com/en/3.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
+# import django_heroku
 import os.path
 from pathlib import Path
-import django_heroku
-import dj_databse_url
-from decouple import config
+
+import django_on_heroku
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -165,4 +165,5 @@ EMAIL_USE_TLS = True
 # EMAIL_HOST_PASSWORD ='*****************'
 # EMAIL_USE_TLS = True
 
-django_heroku.settings(locals())
+
+django_on_heroku.settings(locals())
