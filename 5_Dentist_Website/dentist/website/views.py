@@ -38,3 +38,25 @@ def contact(request):
         return render(request,'website/contact.html',{'message_name':message_name,'message_email':message_email,'message':message})
     else:
         return render(request,'website/contact.html')
+
+def appointment(request):
+    if request.method=='POST':
+        your_name=request.POST['your_name'],
+        your_phone=request.POST['your_phone'],
+        your_email=request.POST['your_email'],
+        your_address=request.POST['your_address'],
+        your_schedule = request.POST['your_schedule'],
+        your_date=request.POST['your_date'],
+        your_message=request.POST['your_message']
+
+        return render(request,'website/appointment.html', {
+            'your_name':your_name,
+            'your_phone':your_phone,
+            'your_email':your_email,
+            'your_address':your_address,
+            'your_schedule':your_schedule,
+            'your_date': your_date,
+            'your_message':your_message
+        })
+    else:
+        return render(request,'website/home.html',{})
