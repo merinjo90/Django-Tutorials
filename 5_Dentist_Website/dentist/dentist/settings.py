@@ -128,3 +128,32 @@ STATICFILES_DIRS=[
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+#  Email settings
+#enable https://myaccount.google.com/lesssecureapps
+#https://accounts.google.com/DisplayUnlockCaptcha
+#https://accounts.google.com/apppasswords
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = os.environ.get('DJANGO_EMAIL_TESTING_ACCOUNT_NAME')
+EMAIL_HOST_PASSWORD = os.environ.get('DJANGO_EMAIL_TESTING_ACCOUNT_PASSWORD')
+EMAIL_USE_TLS = True
+
+# Email settings (Local Testing)
+# python -m smtpd -n -c DebuggingServer localhost:1025
+# run above command from new command line interface - this will set up new server
+# EMAIL_HOST = 'localhost'
+# EMAIL_PORT = 1025
+# EMAIL_HOST_USER = ''
+# EMAIL_HOST_PASSWORD =''
+# EMAIL_USE_TLS = False
+# EMAIL_USE_SSL = False
+
+
+# EMAIL_HOST='smtp.gmail.com'
+# EMAIL_PORT = 587
+# EMAIL_HOST_USER = 'merin@gmail.com'
+# EMAIL_HOST_PASSWORD ='*****************'
+# EMAIL_USE_TLS = True
