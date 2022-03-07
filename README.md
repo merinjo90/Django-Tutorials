@@ -45,7 +45,7 @@ Before we begin, the virtual environment is called venv, the Django project is c
 
 ## Screenshots from User-Registration
 
-[](home/merin/Downloads/to/readm1.png "user login")
+<a href="https://ibb.co/xCwjHxq"><img src="https://i.ibb.co/r7q6sD2/readm1.png" alt="readm1" border="0"></a>
 
 ## Demo for the User-Registration 
 
