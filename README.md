@@ -8,7 +8,7 @@ Upload photos, group them into galleries.
 
 Photo Gallery
 
-<img src="/home/merin/Downloads/photo_gallery.png" width=100>
+<img src="/home/merin/photo_gallery.png" width=100>
 
 ## Demo for the portfolio
 
