@@ -8,7 +8,7 @@ Upload photos, group them into galleries.
 
 Photo Gallery
 
-![Alt text](http://full/home/merin/Downloads/readmeimage/photo_gallery.png "Photo Gallery")
+![](home/merin/Downloads/readmeimage/photo_gallery.png "Photo Gallery")
 
 
 ## Demo for the portfolio
@@ -31,7 +31,7 @@ Dental Clinic webiste with landing page and contact system which allows to inter
 
 Dental website
 
-![Alt text](http:home/merin/Downloads/readmeimage/dental.png " Dental website")
+![](home/merin/Downloads/readmeimage/dental.png " Dental website")
 
 
 ## Demo for the Dental clinic Website
@@ -49,7 +49,7 @@ Before we begin, the virtual environment is called venv, the Django project is c
 
 ## Screenshots from User-Registration
 
-[Alt text](http://full/home/merin/Downloads/to/readm1.png "user login")
+[](home/merin/Downloads/to/readm1.png "user login")
 
 ## Demo for the User-Registration 
 
@@ -67,7 +67,7 @@ This is made with Django framework in the backend, and with CSS, JS, and Bootstr
 
 Photo Gallery
 
-home/merin/Downloads/readmeimage/portfolio.png
+![](home/merin/Downloads/readmeimage/portfolio.png)
 
 ## Demo for the portfolio
 
@@ -86,16 +86,16 @@ This is a simple blog application. purpose of building this project is to get
 
 User Registration
 
-![Image](/home/merin/Downloads/readmeimage/blog1.png)
+![](/home/merin/Downloads/readmeimage/blog1.png)
 
 User Login 
 
-![Image](/home/merin/Downloads/readmeimage/blog2.png)
+![](/home/merin/Downloads/readmeimage/blog2.png)
 
 
 Blog Post
 
-![Image](/home/merin/Downloads/readmeimage/blog3.png)
+![](/home/merin/Downloads/readmeimage/blog3.png)
 
 
 ## Demo for the BlogApplication
