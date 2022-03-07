@@ -61,9 +61,9 @@ This is made with Django framework in the backend, and with CSS, JS, and Bootstr
 
 ## Screenshots from the portfolio
 
-Photo Gallery
+portfolio website
 
-![](home/merin/Downloads/readmeimage/portfolio.png)
+<a href="https://ibb.co/bb9xr43"><img src="https://i.ibb.co/LN7MCTP/portfolio.png" alt="portfolio" border="0"></a>
 
 ## Demo for the portfolio
 
