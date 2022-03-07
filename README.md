@@ -31,14 +31,11 @@ Dental Clinic webiste with landing page and contact system which allows to inter
 
 Dental website
 
-![](home/merin/Downloads/readmeimage/dental.png " Dental website")
-
+![ScreenShot](/screenshots/dental.png)
 
 ## Demo for the Dental clinic Website
 
 https://github.com/merinjo90/Django-Tutorials/blob/master/5_Dentist_Website/dental_website.gif
-
-
 
 
 # 3. User-Registration
