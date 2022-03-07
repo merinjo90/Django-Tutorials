@@ -8,7 +8,7 @@ Upload photos, group them into galleries.
 
 Photo Gallery
 
-<img src="Pictures/photo_gallery.png">
+<img src="Pictures/photo_gallery.png" width=100>
 
 ## Demo for the portfolio
 
