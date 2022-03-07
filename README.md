@@ -8,7 +8,7 @@ Upload photos, group them into galleries.
 
 Photo Gallery
 
-![](Pictures/photo_gallery.png)
+![](images/photo_gallery.png)
 
 ## Demo for the portfolio
 
