@@ -9,6 +9,7 @@ Upload photos, group them into galleries.
 Photo Gallery
 
 <img src="/home/merin/photo_gallery.png" width=100>
+![ScreenShot](/screenshots/photo_gallery.png)
 
 ## Demo for the portfolio
 
