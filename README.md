@@ -30,7 +30,7 @@ Dental Clinic webiste with landing page and contact system which allows to inter
 
 Dental website
 
-![ScreenShot](/screenshots/dental.png)
+<a href="https://ibb.co/25CXqnF"><img src="https://i.ibb.co/6NT6Yny/dental.png" alt="dental" border="0"></a>
 
 ## Demo for the Dental clinic Website
 
