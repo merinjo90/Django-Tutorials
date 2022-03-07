@@ -82,7 +82,7 @@ This is a simple blog application. purpose of building this project is to get
 
 User Registration
 
-![](/home/merin/Downloads/readmeimage/blog1.png)
+<a href="https://ibb.co/3ysR65T"><img src="https://i.ibb.co/BVPnWHf/blog1.png" alt="blog1" border="0"></a>
 
 User Login 
 
