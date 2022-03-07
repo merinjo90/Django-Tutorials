@@ -7,7 +7,8 @@ Upload photos, group them into galleries.
 ## Screenshots from the Gallery
 
 Photo Gallery
-![](/home/merin/Pictures/photo_gallery.png)
+
+![](Pictures/photo_gallery.png)
 
 ## Demo for the portfolio
 
