@@ -8,6 +8,7 @@ Upload photos, group them into galleries.
 
 Photo Gallery
 
+![Alt text](https://ibb.co/qxyRXnz)
 ![](https://ibb.co/qxyRXnz)
 
 ## Demo for the portfolio
