@@ -8,13 +8,7 @@ Upload photos, group them into galleries.
 
 Photo Gallery
 
-<img src="/home/merin/photo_gallery.png" width=100>
-
-<p>
-    <img src="/home/merin/photo_gallery.png" width="220" height="240" />
-</p>
-
- <img src={require("/home/merin/photo_gallery.png")} width="400" height="500"/>
+[](https://ibb.co/qxyRXnz)
 
 ## Demo for the portfolio
 
