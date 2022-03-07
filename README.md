@@ -7,11 +7,7 @@ Upload photos, group them into galleries.
 ## Screenshots from the Gallery
 
 Photo Gallery
-
-![](/home/merin/Downloads/readmeimage/photo_gallery.png)
-![](file:///home/merin/Pictures/photo_gallery.png)
-
-
+![](/home/merin/Pictures/photo_gallery.png)
 
 ## Demo for the portfolio
 
