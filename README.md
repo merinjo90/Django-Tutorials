@@ -8,9 +8,6 @@ Upload photos, group them into galleries.
 
 Photo Gallery
 
-![Alt text](https://ibb.co/qxyRXnz)
-![](https://ibb.co/qxyRXnz)
-
 <a href="https://ibb.co/qxyRXnz"><img src="https://i.ibb.co/6Nn4VZ2/photo-gallery.png" alt="photo-gallery" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>upload private photos</a><br />
 
 ## Demo for the portfolio
