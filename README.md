@@ -14,6 +14,8 @@ Photo Gallery
     <img src="/home/merin/photo_gallery.png" width="220" height="240" />
 </p>
 
+ <img src={require('../merin/photo_gallery.png')} width="400" height="500"/>
+
 ## Demo for the portfolio
 
 Demo for  Django Photo Album
