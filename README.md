@@ -91,8 +91,7 @@ User Login
 
 Blog Post
 
-![](/home/merin/Downloads/readmeimage/blog3.png)
-
+<a href="https://ibb.co/mHR7Dg4"><img src="https://i.ibb.co/sFgrmzq/blog3.png" alt="blog3" border="0"></a>
 
 ## Demo for the BlogApplication
 
