@@ -86,7 +86,7 @@ User Registration
 
 User Login 
 
-![](/home/merin/Downloads/readmeimage/blog2.png)
+<a href="https://ibb.co/x3RWpZz"><img src="https://i.ibb.co/4J5z6k4/blog2.png" alt="blog2" border="0"></a>
 
 
 Blog Post
