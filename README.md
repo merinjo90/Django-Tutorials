@@ -9,8 +9,10 @@ Upload photos, group them into galleries.
 Photo Gallery
 
 <img src="/home/merin/photo_gallery.png" width=100>
-![ScreenShot](/screenshots/photo_gallery.png)
-![plot](./home/merin/photo_gallery.png)
+
+<p>
+    <img src="/home/merin/photo_gallery.png" width="220" height="240" />
+</p>
 
 ## Demo for the portfolio
 
