@@ -8,7 +8,7 @@ Upload photos, group them into galleries.
 
 Photo Gallery
 
-![](home/merin/Downloads/readmeimage/photo_gallery.png "Photo Gallery")
+![](images/photo_gallery.png)
 
 
 ## Demo for the portfolio
