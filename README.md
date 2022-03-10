@@ -8,13 +8,8 @@ Upload photos, group them into galleries.
 
 Photo Gallery
 
-<a href="https://ibb.co/qxyRXnz"><img src="https://i.ibb.co/6Nn4VZ2/photo-gallery.png" alt="photo-gallery" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>upload private photos</a><br />
-
 ![1_screen](https://user-images.githubusercontent.com/83909801/157645645-8d07e31f-2fc3-4458-a859-71a3786f7f5c.png)
 
-![2_screen](https://user-images.githubusercontent.com/83909801/157645673-2795bf8a-9819-4f0a-b762-8bcf88ab8781.png)
-
-![4_screen](https://user-images.githubusercontent.com/83909801/157645711-f33abbc4-cf35-4b39-a506-c204ebd1db8b.png)
 
 ## Demo for  Photo Gallery
 
@@ -36,7 +31,7 @@ Dental Clinic webiste with landing page and contact system which allows to inter
 
 Dental website
 
-<a href="https://ibb.co/25CXqnF"><img src="https://i.ibb.co/6NT6Yny/dental.png" alt="dental" border="0"></a>
+![2_screen](https://user-images.githubusercontent.com/83909801/157645673-2795bf8a-9819-4f0a-b762-8bcf88ab8781.png)
 
 ## Demo for the Dental clinic Website
 
@@ -51,7 +46,7 @@ Before we begin, the virtual environment is called venv, the Django project is c
 
 ## Screenshots from User-Registration
 
-<a href="https://ibb.co/xCwjHxq"><img src="https://i.ibb.co/r7q6sD2/readm1.png" alt="readm1" border="0"></a>
+![4_screen](https://user-images.githubusercontent.com/83909801/157645711-f33abbc4-cf35-4b39-a506-c204ebd1db8b.png)
 
 ## Demo for the User-Registration 
 
