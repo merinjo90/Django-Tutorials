@@ -64,16 +64,13 @@ This is made with Django framework in the backend, and with CSS, JS, and Bootstr
 
 portfolio website
 
-<a href="https://ibb.co/bb9xr43"><img src="https://i.ibb.co/LN7MCTP/portfolio.png" alt="portfolio" border="0"></a>
+![5_screen](https://user-images.githubusercontent.com/83909801/157646945-bf9f6e52-b273-4865-9e25-354a245e8ff8.png)
 
 ## Demo for the portfolio
 
 demo for  Django Photo Album
 
 https://github.com/merinjo90/Django-Tutorials/blob/master/4_Portfolio_Website/portfolio.gif
-
-![5_screen](https://user-images.githubusercontent.com/83909801/157646945-bf9f6e52-b273-4865-9e25-354a245e8ff8.png)
-
 
 
 # 5. Django BlogApplication
@@ -86,17 +83,15 @@ This is a simple blog application. purpose of building this project is to get
 
 User Registration
 
-
 ![6_screen](https://user-images.githubusercontent.com/83909801/157646952-e1946459-943b-4720-b114-eaa3a9d519e1.png)
 
 User Login 
 
-<a href="https://ibb.co/x3RWpZz"><img src="https://i.ibb.co/4J5z6k4/blog2.png" alt="blog2" border="0"></a>
-
+![11screen](https://user-images.githubusercontent.com/83909801/157647466-cf01dd51-4ff4-4ace-a86c-23999c137d70.png)
 
 Blog Post
 
-<a href="https://ibb.co/mHR7Dg4"><img src="https://i.ibb.co/sFgrmzq/blog3.png" alt="blog3" border="0"></a>
+![12_screen](https://user-images.githubusercontent.com/83909801/157647470-21a985c1-e0ba-409b-a1bc-57d7f00a55a8.png)
 
 ## Demo for the BlogApplication
 
