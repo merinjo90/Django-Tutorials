@@ -10,6 +10,12 @@ Photo Gallery
 
 <a href="https://ibb.co/qxyRXnz"><img src="https://i.ibb.co/6Nn4VZ2/photo-gallery.png" alt="photo-gallery" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>upload private photos</a><br />
 
+![1_screen](https://user-images.githubusercontent.com/83909801/157645645-8d07e31f-2fc3-4458-a859-71a3786f7f5c.png)
+
+![2_screen](https://user-images.githubusercontent.com/83909801/157645673-2795bf8a-9819-4f0a-b762-8bcf88ab8781.png)
+
+![4_screen](https://user-images.githubusercontent.com/83909801/157645711-f33abbc4-cf35-4b39-a506-c204ebd1db8b.png)
+
 ## Demo for  Photo Gallery
 
 Demo for  Django Photo Album
