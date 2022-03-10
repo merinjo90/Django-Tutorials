@@ -72,6 +72,9 @@ demo for  Django Photo Album
 
 https://github.com/merinjo90/Django-Tutorials/blob/master/4_Portfolio_Website/portfolio.gif
 
+![5_screen](https://user-images.githubusercontent.com/83909801/157646945-bf9f6e52-b273-4865-9e25-354a245e8ff8.png)
+
+
 
 # 5. Django BlogApplication
 
@@ -83,7 +86,8 @@ This is a simple blog application. purpose of building this project is to get
 
 User Registration
 
-<a href="https://ibb.co/3ysR65T"><img src="https://i.ibb.co/BVPnWHf/blog1.png" alt="blog1" border="0"></a>
+
+![6_screen](https://user-images.githubusercontent.com/83909801/157646952-e1946459-943b-4720-b114-eaa3a9d519e1.png)
 
 User Login 
 
